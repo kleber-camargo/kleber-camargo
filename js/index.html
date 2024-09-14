@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria Lumi</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- ICOSN -->
+    <script src="https://kit.fontawesome.com/247119b6a0.js" crossorigin="anonymous" defer></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="/images/LOGO_3branco.png" alt="Logo da Cafeteria Lumi" class="logo">
+            <h1>Cafeteria Lumi</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Cardápio</a></li>
+                    <li><a href="events.html">Eventos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+            <div class="hero">
+                <h2>Bem-vindo à Cafeteria Lumi</h2>
+                <p>Desfrute de um ambiente acolhedor com as melhores bebidas e snacks da cidade.</p>
+            </div>
+            <div class="features">
+                <div class="feature">
+                    <h3>Café Gourmet</h3>
+                    <p>Experimente nossa seleção de cafés especiais, preparados com grãos de alta qualidade.</p>
+                </div>
+                <div class="feature">
+                    <h3>Ambiente Aconchegante</h3>
+                    <p>Um espaço confortável para você relaxar, ler um livro ou encontrar amigos.</p>
+                </div>
+                <div class="feature">
+                    <h3>Eventos Exclusivos</h3>
+                    <p>Participe de nossos eventos especiais, entre em contato para saber onde estaremos.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+            <a href="https://api.whatsapp.com/send/?phone=%2B5512997063823&text&type=phone_number&app_absent=0" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+
+            <form action="#" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cafeteria Lumi. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
